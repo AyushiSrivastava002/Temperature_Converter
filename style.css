@@ -1,0 +1,49 @@
+body {
+    font-family: mv boli;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9e2e2;
+}
+
+.converter-container {
+    text-align: center;
+    padding: 70px;
+    border: 5px solid #ccc;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label { 
+    font-weight: 15px bold;
+    border-radius: 15px;
+}
+
+input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 18px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
